@@ -1,0 +1,63 @@
+.offers {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .offers-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .offer-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Efecto de elevación y sombra cuando pasas el mouse */
+  .offer-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .offer-card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Zoom en la imagen cuando pasas el mouse sobre la tarjeta */
+  .offer-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .offer-card h3 {
+    margin: 10px 0;
+  }
+  
+  .offer-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+
+  .offer-card button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .offer-card button:active {
+    transform: scale(0.95);
+  }
+  

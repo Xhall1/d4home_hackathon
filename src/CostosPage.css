@@ -1,0 +1,107 @@
+.costos-container {
+    padding: 20px;
+    background-color: #f5f7fa;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0c4c8a;
+  }
+  
+  .header .logo {
+    font-size: 2rem;
+    color: white;
+  }
+  
+
+  
+  .nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .offers {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .offers h2 {
+    font-size: 2.5rem;
+    color: #0c4c8a;
+  }
+  
+  .offers h3 {
+    font-size: 1.8rem;
+    color: #0c4c8a;
+    margin-bottom: 20px;
+  }
+  
+  .offers-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .offer-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px); /* Tres tarjetas por fila */
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .offer-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .offer-card h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .offer-card p {
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .offer-card button {
+    background-color: #0c4c8a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .offer-card button:hover {
+    background-color: #093a6a;
+  }
+  
+  .prices-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prices-section h3 {
+    color: #0c4c8a;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
